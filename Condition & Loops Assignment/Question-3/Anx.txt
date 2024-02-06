@@ -1,0 +1,38 @@
+Loops allow you to repeat a process over and over without having to write the same (potentially long) instructions each time you want your program to perform a task.
+
+1.> For Loop:--- 
+          for (expression 1; expression 2; expression 3) {
+           // code block to be executed
+          }
+
+     //if We want to print 1 to 10 then we simply apply loop
+         for(let i=1;i<=10;i++){
+           console.log(i);
+        }
+    O/P-----1 2 3 4 5 6 7 8 9 10
+
+2.> while Loop:----
+         While(Condition){
+          //statement
+         }
+    //Same task can be done by useing while loop
+        let n=1;
+       while(n<=10){
+         console.log(n);
+          n++;
+       }
+   O/P----1 2 3 4 5 6 7 8 9 10
+
+ 3.> do while Loop:----
+          Do{
+          // Statement
+          }While(Condition);
+
+        let n=1;
+  do{
+    console.log(n);
+    n++;
+  }while(n<=10);
+
+  O/P--- 1 2 3 4 5 6 7 8 9 10
+          
