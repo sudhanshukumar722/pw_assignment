@@ -1,0 +1,32 @@
+A conditional statement tells a program to execute an action depending on whether a condition is true or false. It is often represented as an if-then or if-then-else statement.if the computer determines conditions to be true, it executes a specific command.
+
+Syntax:- 
+         if (condition) {
+            //  block of code to be executed if the condition is true
+            
+
+      }
+
+Example:- 
+          let houe=10;
+          if (hour < 18) {
+          greeting = "Good day";
+           }
+   O/P----Good day
+
+
+ Syantx:-
+           if (condition) {
+                     //  block of code to be executed if the condition is true
+                 } else {
+                     //  block of code to be executed if the condition is false
+              }
+
+  Example:-
+            Let hous=20;
+             if (hour < 18) {
+                 greeting = "Good day";
+              } else {
+              greeting = "Good evening";
+            } 
+      O/P---- Good evening
