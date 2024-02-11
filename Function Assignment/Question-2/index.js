@@ -1,5 +1,7 @@
-let square=(num)=>{
-    return num*num;
+ function generateGreeting(name,greetmessage){
+ console.log(`Hello, ${name} ${greetmessage}`);
 }
-console.log(square(5));
-console.log(square(4));
+
+generateGreeting("sudhanshu","Welcome to PW Skill.");
+generateGreeting("Rohan","How are you?.");
+generateGreeting("Aman","Good Morning.");
